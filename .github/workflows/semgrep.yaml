@@ -6,6 +6,6 @@ on:
 
 jobs:
   checker:
-    uses: njjetha/reusable-workflows/.github/workflows/build.yml@main
+    uses: njjetha/reusable-workflows/.github/workflows/build.yml@master
     secrets:
       SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
